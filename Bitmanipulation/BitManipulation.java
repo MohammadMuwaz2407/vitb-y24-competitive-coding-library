@@ -18,4 +18,9 @@ class BitManipulation {
         return n;
 
     }
+    public static long gitsetbitcount(long n, int k) {
+        n=(n&(n-1));
+        return n;
+    }
+    
 }
